@@ -174,8 +174,8 @@ Books
     <td>string</td>
   </tr>
   <tr>
-    <td>author_id</td>
-    <td>foreign key</td>
+    <th>author_id</th>
+    <th>foreign key</th>
     <td>last_name</td>
     <td>string</td>
   </tr>
@@ -209,14 +209,14 @@ Books
     <td>primary key</td>
   </tr>
   <tr>
-    <td>borrower_id</td>
-    <td>foreign key</td>
+    <th>borrower_id</th>
+    <th>foreign key</th>
     <td>first_name</td>
     <td>string</td>
   </tr>
   <tr>
-    <td>book_id</td>
-    <td>foreign key</td>
+    <th>book_id</th>
+    <th>foreign key</th>
     <td>last_name</td>
     <td>string</td>
   </tr>
@@ -378,16 +378,16 @@ Patients -|--< Appointments >--|- Doctors
   <tr>
     <td>first_name</td>
     <td>string</td>
-    <td>patient_id</td>
-    <td>foreign key</td>
+    <th>patient_id</th>
+    <th>foreign key</th>
     <td>first_name</td>
     <td>string</td>
   </tr>
   <tr>
     <td>last_name</td>
     <td>string</td>
-    <td>doctor_id</td>
-    <td>foreign key</td>
+    <th>doctor_id</th>
+    <th>foreign key</th>
     <td>last_name</td>
     <td>string</td>
   </tr>
@@ -408,8 +408,8 @@ Patients -|--< Appointments >--|- Doctors
     <td>string</td>
   </tr>
   <tr>
-    <td>doctor_id</td>
-    <td>foreign key</td>
+    <th>doctor_id</th>
+    <th>foreign key</th>
     <td></td>
     <td></td>
     <td>created_at</td>
@@ -565,16 +565,16 @@ Patients -|--< Appointments >--|- Doctors
   <tr>
     <td>updated_at</td>
     <td>datetime</td>
-    <td>recipe_id</td>
-    <td>foreign key</td>
+    <th>recipe_id</th>
+    <th>foreign key</th>
     <td>created_at</td>
     <td>datetime</td>
   </tr>
   <tr>
     <td></td>
     <td></td>
-    <td>ingredient_id</td>
-    <td>foreign key</td>
+    <th>ingredient_id</th>
+    <th>foreign key</th>
     <td>updated_at</td>
     <td>datetime</td>
   </tr>
