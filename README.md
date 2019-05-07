@@ -616,3 +616,4 @@ Developers should run these often!
 - Blogs
   - [ActiveRecord Joins](https://www.learneroo.com/modules/137/nodes/768)
   - [Complex has_many :through](http://nithinbekal.com/posts/complex-has-many-through/)
+  - [Has many through - forms](https://learn.co/lessons/has-many-through-forms-rails)
